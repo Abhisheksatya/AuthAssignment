@@ -5,8 +5,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class UserModel {
-    String email;
-    String password;
-    String fullName;
+public class BaseModel {
+private long id;
 }

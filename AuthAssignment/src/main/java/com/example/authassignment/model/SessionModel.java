@@ -1,7 +1,11 @@
 package com.example.authassignment.model;
 
-public class SessionModel {
-    String id;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class SessionModel extends BaseModel{
     String token;
     UserModel userModel;
 }
